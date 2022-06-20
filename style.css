@@ -1,0 +1,138 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Header */
+
+.header {
+  color: black;
+  min-width: 320px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  -moz-transition: box-shadow 250ms;
+  transition: box-shadow 250ms;
+}
+
+.container-image-and-advanced {
+  box-sizing: border-box;
+  height: 48px;
+  line-height: normal;
+  padding: 10px 20px;
+  padding-left: 4px;
+  padding-left: 30px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+a {
+  font-family: arial, sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+  display: inline-block;
+  line-height: 24px;
+  vertical-align: middle;
+  padding-left: 15px;
+}
+
+/* Form */
+
+.logo-container {
+  max-height: 290px;
+
+  isplay: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-box {
+  height: 100%;
+  margin-top: auto;
+  max-height: 92px;
+  position: relative;
+}
+
+.logo {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+  width: auto;
+}
+
+.form-container {
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Text Input */
+
+.input-buttons-container {
+  max-width: 584px;
+}
+
+.container-input {
+  display: flex;
+  z-index: 3;
+  height: 44px;
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  margin: 0 auto;
+  width: 638px;
+  width: auto;
+  max-width: 584px;
+  align-items: center;
+}
+
+.input-text {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  margin-top: 0px;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  width: 638px;
+  height: 34px;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Buttons */
+
+.container-btn {
+  padding-top: 18px;
+  height: 70px;
+}
+
+.btn-search {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
