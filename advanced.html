@@ -4,50 +4,116 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Search</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="advanced.css" />
   </head>
   <body>
-    <div class="main">
-      <div class="header">
-        <div class="container-image-and-advanced">
-          <div class="page-link">
-            <a href="images.html" class="link">Images</a>
-          </div>
-          <div class="page-link">
-            <a href="index.html" class="link">Google</a>
-          </div>
-        </div>
+    <div class="container-logo">
+      <div class="logo">
+        <a
+          class="logo"
+          aria-label="Ir para a página inicial do Google"
+          href="index.html"
+          title="Ir para a página inicial do Google"
+        >
+          <img src="assets/googlelogo_images.png" alt="" class="logo" />
+        </a>
       </div>
-      <div class="logo-container">
-        <div class="logo-box">
-          <img
-            class="logo"
-            src="assets/googlelogo_color_272x92dp.png"
-            alt="Google logo"
-          />
-        </div>
-      </div>
-      <div class="form-container">
-        <form class="form" action="https://www.google.com/search">
-          <div class="input-buttons-container">
-            <div class="container-input">
+    </div>
+
+    <div class="appbar">
+      <label>Advanced Search</label>
+    </div>
+    <hr />
+    <div class="form-container">
+      <form action="https://www.google.com/search?" method="GET">
+        <div class="table d-flex">
+          <div class="row">
+            <div class="cell-label t-main">Find pages with</div>
+            <div class="cell-input">
+              <input
+                class="input-text d-none"
+                type="text"
+                name=""
+                placeholder="Search"
+              
+              />
+            </div>
+            <div class="cell-label t-grey">
+              Fazer isto na caixa de pesquisa.
+            </div>
+          </div>
+          <div class="row">
+            <div class="cell-label">All this words</div>
+            <div class="cell-input">
               <input
                 class="input-text"
                 type="text"
-                name="q"
+                name="as_q"
                 placeholder="Search"
               />
             </div>
-            <div class="container-btn">
-              <center>
-                <input class="btn-search" type="submit" value="Google Search" />
-                <input class="btn-search" type="submit" value="Felling Lucky" />
-              </center>
+            <div class="cell-label t-sub">
+              Write the important words: rat terrier tricolor
             </div>
           </div>
-        </form>
-      </div>
+          <div class="row">
+            <div class="cell-label">Exactly this word or expression</div>
+            <div class="cell-input">
+              <input
+                class="input-text"
+                type="text"
+                name="as_q"
+                placeholder="Search"
+              />
+            </div>
+            <div class="cell-label t-sub">
+              Put the exact words in quotes: "rat terrier"
+            </div>
+          </div>
+          <div class="row">
+            <div class="cell-label">Any of this words</div>
+            <div class="cell-input">
+              <input
+                class="input-text"
+                type="text"
+                name="as_q"
+                placeholder="Search"
+              />
+            </div>
+            <div class="cell-label t-sub">
+              Type OR between all intended words: miniature OR standard
+            </div>
+          </div>
+          <div class="row">
+            <div class="cell-label">None of this words</div>
+            <div class="cell-input">
+              <input
+                class="input-text"
+                type="text"
+                name="as_q"
+                placeholder="Search"
+              />
+            </div>
+            <div class="cell-label t-sub">
+              Place a minus sign immediately before the unintended words:
+              -rodent, - "Jack Russell"
+            </div>
+          </div>
+       
+       <div class="row">
+        <div class="cell-label t-main"></div>
+            <div class="cell-input">
+             <div class="button-box">
+              <button class="btn btn-submit" type="submit">
+                Advanced Search
+              </button>
+            </div>
+          
+        </div> </div>
+      </form>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>

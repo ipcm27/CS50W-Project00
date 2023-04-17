@@ -18,7 +18,22 @@
   transition: box-shadow 250ms;
 }
 
+
+
+.link{
+  line-height: 24px;
+  vertical-align: middle;
+  font: 13px/27px Roboto,Arial,sans-serif;
+  color: rgba(0,0,0,.87);
+
+}
+.link:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .container-image-and-advanced {
+  margin:10px;
   box-sizing: border-box;
   height: 48px;
   line-height: normal;
@@ -64,6 +79,15 @@ a {
   object-fit: contain;
   object-position: center bottom;
   width: auto;
+}
+
+.T8VaVe {
+  color: #4285f4;
+  font: 16px/16px roboto-regular, arial, sans-serif;
+  position: absolute;
+  left: 215px;
+  bottom: 0;
+  white-space: nowrap;
 }
 
 .form-container {
@@ -118,6 +142,8 @@ a {
 .container-btn {
   padding-top: 18px;
   height: 70px;
+  display: flex;
+  justify-content: center;
 }
 
 .btn-search {
