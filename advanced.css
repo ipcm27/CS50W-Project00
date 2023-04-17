@@ -2,6 +2,60 @@ body{
     font-family: arial, sans-serif;
 }
 
+
+  
+/* Header */
+
+.header {
+    color: black;
+    min-width: 320px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    -moz-transition: box-shadow 250ms;
+    transition: box-shadow 250ms;
+  }
+
+.link{
+    line-height: 24px;
+    vertical-align: middle;
+    font: 13px/27px Roboto,Arial,sans-serif;
+    color: rgba(0,0,0,.87);
+  
+  }
+  .link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .container-image-and-advanced {
+    margin:10px;
+    box-sizing: border-box;
+    height: 48px;
+    line-height: normal;
+    padding: 10px 20px;
+    padding-left: 4px;
+    padding-left: 30px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  a {
+    font-family: arial, sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+    padding-left: 15px;
+  }
+
+
+  #myHr{
+    border: 1px solid #ebebeb !important;
+  }
 /* Logo */
 .container-logo{
 margin:15px
